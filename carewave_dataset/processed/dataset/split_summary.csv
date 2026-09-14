@@ -1,0 +1,4 @@
+﻿split,windows,samples
+train,66035,154
+val,9198,13
+test,9827,10
