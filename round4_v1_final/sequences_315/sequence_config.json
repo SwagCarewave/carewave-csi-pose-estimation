@@ -1,0 +1,24 @@
+{
+  "sequence_length": 20,
+  "sampling_rate_hz": 10,
+  "sequence_duration_sec": 2.0,
+  "stride_frames": 5,
+  "stride_sec": 0.5,
+  "max_allowed_time_gap_sec": 0.15,
+  "input_shape": [
+    20,
+    315
+  ],
+  "target_pose_shape": [
+    66
+  ],
+  "target_center_shape": [
+    2
+  ],
+  "target_log_scale_shape": [
+    1
+  ],
+  "target_frame": "last frame of each sequence",
+  "split_unit": "recording",
+  "test_used_for_training": false
+}

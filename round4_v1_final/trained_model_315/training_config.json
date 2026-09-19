@@ -1,0 +1,17 @@
+{
+  "max_epochs": 80,
+  "early_stopping_patience": 12,
+  "minimum_improvement": 1e-05,
+  "batch_size": 64,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "gradient_clip_norm": 1.0,
+  "optimizer": "AdamW",
+  "scheduler": "ReduceLROnPlateau",
+  "scheduler_monitor": "validation loss",
+  "best_model_monitor": "validation raw-coordinate MPJPE",
+  "mixed_precision": true,
+  "train_sequences": 13454,
+  "validation_sequences": 3399,
+  "test_used": false
+}

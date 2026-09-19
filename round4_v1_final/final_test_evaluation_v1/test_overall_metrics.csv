@@ -1,0 +1,2 @@
+﻿model,checkpoint,test_recordings,sequences,mae,mse,mpjpe,pck_005,test_used_for_training,test_used_for_validation,test_used_for_model_selection
+CareWave_v1,/content/gdrive/MyDrive/CareWave_Round4_Reextract/trained_model_315/carewave_315_best.pt,5,940,0.09588283007564581,0.024009622496070592,0.15727562477018356,0.22059961315280463,False,False,False
