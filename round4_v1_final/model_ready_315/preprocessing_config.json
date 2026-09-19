@@ -1,0 +1,16 @@
+{
+  "input_feature_dim": 315,
+  "scaler": "feature-wise median and IQR",
+  "scaler_fit_split": "train only",
+  "feature_clip_range": [
+    -10.0,
+    10.0
+  ],
+  "pose_center": "midpoint of landmarks 23 and 24",
+  "pose_scale": "max(shoulder_width, hip_width, 2 * torso_length, 0.05)",
+  "train_recordings": 148,
+  "validation_recordings": 30,
+  "test_recordings": 5,
+  "test_used_for_scaler_fitting": false,
+  "test_used_for_training": false
+}

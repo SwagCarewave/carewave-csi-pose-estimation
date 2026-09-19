@@ -1,0 +1,15 @@
+{
+  "version": "CareWave_sync_315_v1",
+  "target_fps": 10,
+  "feature_dim": 315,
+  "pose_joints": 33,
+  "pose_coordinates": [
+    "x",
+    "y"
+  ],
+  "fixed_lag_sec": 0.0,
+  "time_tolerance_sec": 0.051,
+  "matching_method": "nearest CSI timestamp for each pose timestamp",
+  "invalid_pose_policy": "frames containing non-finite pose x/y are excluded",
+  "test_policy": "Test data synchronized separately and never used for training, validation selection, scaling, or tuning"
+}

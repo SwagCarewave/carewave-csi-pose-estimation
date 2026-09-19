@@ -1,0 +1,12 @@
+{
+  "random_seed": 42,
+  "validation_ratio_requested": 0.15,
+  "split_unit": "recording",
+  "stratification": "action-wise deterministic allocation",
+  "train_recordings": 148,
+  "validation_recordings": 30,
+  "test_recordings": 5,
+  "test_used_for_training": false,
+  "test_used_for_scaler_fitting": false,
+  "test_used_for_model_selection": false
+}

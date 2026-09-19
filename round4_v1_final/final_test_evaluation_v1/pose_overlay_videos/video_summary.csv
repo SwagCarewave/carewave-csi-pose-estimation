@@ -1,0 +1,6 @@
+﻿sample_id,frames,fps,duration_sec,mean_mpjpe,median_mpjpe,max_mpjpe,video_path
+hoyeon_test_04,236,2.0,118.0,0.11203453969210386,0.10903558507561684,0.19893097877502441,/content/gdrive/MyDrive/CareWave_Round4_Reextract/final_test_evaluation_v1/pose_overlay_videos/hoyeon_test_04_pose_comparison.mp4
+sujin_test_03,237,2.0,118.5,0.0792882207168054,0.06137543171644211,0.2092917263507843,/content/gdrive/MyDrive/CareWave_Round4_Reextract/final_test_evaluation_v1/pose_overlay_videos/sujin_test_03_pose_comparison.mp4
+yena_test_02,236,2.0,118.0,0.10478885351064599,0.09684847667813301,0.3228645622730255,/content/gdrive/MyDrive/CareWave_Round4_Reextract/final_test_evaluation_v1/pose_overlay_videos/yena_test_02_pose_comparison.mp4
+yena_test_03,214,2.0,107.0,0.3565881798374597,0.39808982610702515,0.46450701355934143,/content/gdrive/MyDrive/CareWave_Round4_Reextract/final_test_evaluation_v1/pose_overlay_videos/yena_test_03_pose_comparison.mp4
+yena_test_04,17,2.0,8.5,0.0922067511607619,0.08468470722436905,0.2370152771472931,/content/gdrive/MyDrive/CareWave_Round4_Reextract/final_test_evaluation_v1/pose_overlay_videos/yena_test_04_pose_comparison.mp4

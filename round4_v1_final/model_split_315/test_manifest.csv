@@ -1,0 +1,6 @@
+﻿sample_id,person,action,repetition,source_split,rows,duration_sec,file_path,model_split
+hoyeon_test_04,hoyeon,test,04,test,1198,119.70665740966797,/content/gdrive/MyDrive/CareWave_Round4_Reextract/synchronized_315/test/hoyeon_test_04_synchronized_315.npz,test
+sujin_test_03,sujin,test,03,test,1200,119.90666198730469,/content/gdrive/MyDrive/CareWave_Round4_Reextract/synchronized_315/test/sujin_test_03_synchronized_315.npz,test
+yena_test_02,yena,test,02,test,1197,119.6066665649414,/content/gdrive/MyDrive/CareWave_Round4_Reextract/synchronized_315/test/yena_test_02_synchronized_315.npz,test
+yena_test_03,yena,test,03,test,1087,108.625,/content/gdrive/MyDrive/CareWave_Round4_Reextract/synchronized_315/test/yena_test_03_synchronized_315.npz,test
+yena_test_04,yena,test,04,test,100,9.916666984558105,/content/gdrive/MyDrive/CareWave_Round4_Reextract/synchronized_315/test/yena_test_04_synchronized_315.npz,test

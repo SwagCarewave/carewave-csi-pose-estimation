@@ -1,0 +1,83 @@
+{
+  "version": "CareWave_315_v1",
+  "target_fps": 10,
+  "feature_dim": 315,
+  "feature_layout": {
+    "centered_csi": {
+      "start": 0,
+      "end_exclusive": 156,
+      "description": "RX1, RX2, RX3 각각 52개 서브캐리어에서 동일 시점 수신기 중앙값을 제거한 신호"
+    },
+    "absolute_temporal_difference": {
+      "start": 156,
+      "end_exclusive": 312,
+      "description": "중앙값 제거 CSI의 직전 0.1초 대비 절대 변화량"
+    },
+    "receiver_medians": {
+      "start": 312,
+      "end_exclusive": 315,
+      "description": "RX1, RX2, RX3의 시점별 중앙값"
+    }
+  },
+  "receiver_order": [
+    "RX1",
+    "RX2",
+    "RX3"
+  ],
+  "subcarrier_order": [
+    "sub_0",
+    "sub_1",
+    "sub_2",
+    "sub_3",
+    "sub_4",
+    "sub_5",
+    "sub_6",
+    "sub_7",
+    "sub_8",
+    "sub_9",
+    "sub_10",
+    "sub_11",
+    "sub_12",
+    "sub_13",
+    "sub_14",
+    "sub_15",
+    "sub_16",
+    "sub_17",
+    "sub_18",
+    "sub_19",
+    "sub_20",
+    "sub_21",
+    "sub_22",
+    "sub_23",
+    "sub_24",
+    "sub_25",
+    "sub_26",
+    "sub_27",
+    "sub_28",
+    "sub_29",
+    "sub_30",
+    "sub_31",
+    "sub_32",
+    "sub_33",
+    "sub_34",
+    "sub_35",
+    "sub_36",
+    "sub_37",
+    "sub_38",
+    "sub_39",
+    "sub_40",
+    "sub_41",
+    "sub_42",
+    "sub_43",
+    "sub_44",
+    "sub_45",
+    "sub_46",
+    "sub_47",
+    "sub_48",
+    "sub_49",
+    "sub_50",
+    "sub_51"
+  ],
+  "normalization": "Not applied yet. Robust scaling will be fitted using internal training samples only.",
+  "test_policy": "Test and unpaired samples are transformed only. They are never used to fit preprocessing statistics."
+}
