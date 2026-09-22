@@ -1,0 +1,32 @@
+{
+  "model_checkpoint": "fall_bigru_attention_best.pt",
+  "window_sequence_length": 6,
+  "window_input_dim": 138,
+  "window_interval_sec_approx": 0.5,
+  "recording_aggregation": "maximum rolling mean",
+  "rolling_window_count": 3,
+  "rolling_duration_sec_approx": 1.5,
+  "recording_threshold": 0.99,
+  "threshold_selected_on": "validation recordings",
+  "selection_constraint": "recording recall = 1.0, then maximize precision",
+  "validation_recordings": 30,
+  "validation_fall_recordings": 7,
+  "validation_non_fall_recordings": 23,
+  "validation_metrics": {
+    "accuracy": 0.9333333333333333,
+    "precision": 0.7777777777777778,
+    "recall": 1.0,
+    "f1": 0.875,
+    "pr_auc": 0.9821428571428572,
+    "roc_auc": 0.9937888198757764,
+    "tn": 21,
+    "fp": 2,
+    "fn": 0,
+    "tp": 7
+  },
+  "limitations": [
+    "Threshold was selected on the validation split.",
+    "The test files do not currently have confirmed fall labels.",
+    "Slow lying down and chair-sitting variation may cause false alarms."
+  ]
+}
